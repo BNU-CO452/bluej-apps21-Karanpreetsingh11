@@ -1,0 +1,35 @@
+Module Programming = new Module();
+Module programing = new Module("CO452", "Programming Concepts");
+Module programminhg = new Module("CO452", "Programming Concepts");
+Module programming = new Module("CO452", "Programming Concepts");
+Module programminhg = new Module("CO452", "Programming Concepts");
+programminhg.setCredi(15);
+Module programming = new Module("CO452", "Programming Concepts");
+programming.print();
+ Module Code: CO452: Programming ConceptsCredit15
+
+Module programming = new Module("CO452", "Programming Concepts");
+Course computing = new Course("BCT1G1", "BSc Hons Computing");
+computing.addModule(programming);
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BCT1G1: BSc Hons Computing
+
+Course computing = new Course("BC1TG1", "BSc Hons Computing");
+Module programming = new Module("CO452", "Programming Concepts");
+Student karan = new Student("Karan Mehra", 22041636);
+Course computing = new Course("BT1CTG1", "Bsc Computing");
+Module programming = new Module("CO452", "Programming Concepts");
+computing.addModule(programming);
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: Bsc Computing
+
+ Module Code: CO452: Programming ConceptsCredit15
+
