@@ -1,0 +1,82 @@
+ Student karan = new Student("Karanpreet Singh", 22041636);
+karan.print();
+ Student ID: 22041636, Karanpreet Singh
+Course Bschonscomp = new Course("BT1CTG1", "Bsc(hons) Computing");
+karan.enrol(Bschonscomp);
+Bschonscomp.print();
+
+ Course BT1CTG1: Bsc(hons) Computing
+
+Module co452 = new Module("CO452", "Programming concepts");
+Bschonscomp.addModule(co452);
+Bschonscomp.print();
+
+ Course BT1CTG1: Bsc(hons) Computing
+
+Bschonscomp.printModules();
+
+Student maciej = new Student("Maciej", 22046578);
+ModuleMark karanCo452 = new ModuleMark(co452);
+karanCo452.setMark(64);
+ModuleMark maciejCo452 = new ModuleMark(co452);
+maciejCo452.setMark(90);
+karan.addMark(karanCo452);
+karan.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22041636, Karanpreet Singh
+
+ Course BT1CTG1: Bsc(hons) Computing
+
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Student karan = new Student();
+Course Bschonscomp = new Course();
+Module co452 = new Module("Co452", "Programming concepts");
+Bschonscomp.addModule(co452);
+karan.enrol(Bschonscomp);
+karan.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22041636, Karanpreet Singh
+
+ Course G400: BSc Computing
+
+ Co452: 	Programming concepts
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Module co450 = new Module("CO450", "Computer Architectures");
+Bschonscomp.addModule(co450);
+karan.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22041636, Karanpreet Singh
+
+ Course G400: BSc Computing
+
+ Co452: 	Programming concepts
+ CO450: 	Computer Architectures
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
