@@ -20,7 +20,7 @@ computing.print();
 
 Course computing = new Course("BC1TG1", "BSc Hons Computing");
 Module programming = new Module("CO452", "Programming Concepts");
-Student karan = new Student("Karan Mehra", 22041636);
+Student karan = new Student("Karanpreet Singh", 22041636);
 Course computing = new Course("BT1CTG1", "Bsc Computing");
 Module programming = new Module("CO452", "Programming Concepts");
 computing.addModule(programming);
