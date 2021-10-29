@@ -7,6 +7,11 @@
  */
 public class Module
 {
+    private int credit;
+        private String code:
+    private String title;
+    
+    
     // instance variables - replace the example below with your own
 
 
