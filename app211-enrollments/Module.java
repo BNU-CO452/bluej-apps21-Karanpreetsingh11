@@ -8,7 +8,7 @@
 public class Module
 {
     private int credit;
-    private String code:
+    private String code;
     private String title;
     
     
