@@ -1,0 +1,26 @@
+Product iphn5 = new Product(101, "iPhone 5");
+iphn5.print();
+ ID 101: iPhone 5 stock level: 0
+iphn5.decreaseQuantity(6);
+iphn5.print();
+ ID 101: iPhone 5 stock level: 0
+iphn5.increaseQuantity(8);
+iphn5.print();
+ ID 101: iPhone 5 stock level: 8
+iphn5.decreaseQuantity(4);
+iphn5.print();
+ ID 101: iPhone 5 stock level: 4
+Product iphn6plus = new Product(102, "iPhone 6 Plus");
+iphn6plus.print();
+ ID 102: iPhone 6 Plus stock level: 0
+StockList stockLis1 = new StockList();
+stockLis1.add(iphn5);
+stockLis1.add(iphn6plus);
+stockLis1.print();
+
+ Karan's Stock List
+ ====================
+
+ ID 101: iPhone 5 stock level: 4
+ ID 102: iPhone 6 Plus stock level: 0
+
