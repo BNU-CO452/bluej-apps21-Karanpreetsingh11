@@ -1,0 +1,68 @@
+StockList karanstocklist = new StockList();
+StockDemo karandemo = new StockDemo();
+
+ Karan's Stock List
+ ====================
+
+ ID 101: iPhone 5 stock level: 0
+ ID 102: iPhone 6 plus  stock level: 0
+ ID 103: iPhone 7 stock level: 0
+ ID 104: iPhone 8 stock level: 0
+ ID 105: iPhone XR stock level: 0
+ ID 106: iPhone 11 stock level: 0
+ ID 107: iPhone 11 Pro Max stock level: 0
+ ID 108: iPhone 12 stock level: 0
+ ID 109: iPhone 12 Mini stock level: 0
+ ID 110: iPhone 12 Pro Max stock level: 0
+
+bought 12 of iPhone 5
+bought 15 of iPhone 6 plus 
+bought 20 of iPhone 7
+bought 50 of iPhone 8
+bought 24 of iPhone XR
+bought 38 of iPhone 11
+bought 52 of iPhone 11 Pro Max
+bought 86 of iPhone 12
+bought 92 of iPhone 12 Mini
+bought 9 of iPhone 12 Pro Max
+
+ Karan's Stock List
+ ====================
+
+ ID 101: iPhone 5 stock level: 12
+ ID 102: iPhone 6 plus  stock level: 15
+ ID 103: iPhone 7 stock level: 20
+ ID 104: iPhone 8 stock level: 50
+ ID 105: iPhone XR stock level: 24
+ ID 106: iPhone 11 stock level: 38
+ ID 107: iPhone 11 Pro Max stock level: 52
+ ID 108: iPhone 12 stock level: 86
+ ID 109: iPhone 12 Mini stock level: 92
+ ID 110: iPhone 12 Pro Max stock level: 9
+
+sold 10 of iPhone 5
+sold 13 of iPhone 6 plus 
+can't sell22ofiPhone 7because only have 20
+sold 30 of iPhone 8
+sold 12 of iPhone XR
+sold 35 of iPhone 11
+sold 40 of iPhone 11 Pro Max
+sold 80 of iPhone 12
+sold 90 of iPhone 12 Mini
+sold 6 of iPhone 12 Pro Max
+product doesn't exist
+
+ Karan's Stock List
+ ====================
+
+ ID 101: iPhone 5 stock level: 2
+ ID 102: iPhone 6 plus  stock level: 2
+ ID 103: iPhone 7 stock level: 20
+ ID 104: iPhone 8 stock level: 20
+ ID 105: iPhone XR stock level: 12
+ ID 106: iPhone 11 stock level: 3
+ ID 107: iPhone 11 Pro Max stock level: 12
+ ID 108: iPhone 12 stock level: 6
+ ID 109: iPhone 12 Mini stock level: 2
+ ID 110: iPhone 12 Pro Max stock level: 3
+
